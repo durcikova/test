@@ -38,8 +38,8 @@ namespace SumOf3
             //do calculations
             Total1 = N1 + N2 + N3;
             Total2 = Total1 * C;
-            Msg1 = "The total of your three numbers is " + Total1;
-            Msg2 = "The total multiplied by constant 7.777 is " + Total2;
+            Msg1 = "The total of your three numbers is " + Total1.ToString("N3");
+            Msg2 = "The total multiplied by constant 7.777 is " + Total2.ToString("N3");
 
             //output
 
