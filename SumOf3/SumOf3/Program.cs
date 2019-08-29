@@ -20,9 +20,9 @@ namespace SumOf3
             string Msg1, Msg2, N1S, N2S, N3S;
 
             //inputs
-            Console.WriteLine("This program will add up 3 numbers of your choice. Then it will multiply the sum of these numbers by a constant value of 7.777 and display the value");
+            Console.WriteLine("This program will add up 3 numbers of your choice. Then it will multiply the sum of these numbers by a constant value of 7.777 and display the value. Let's get started!");
 
-            Console.WriteLine("Enter your first number between 1 - 1000 (decimal values are ok too)");
+            Console.WriteLine("\nEnter your first number between 1 - 1000 (decimal values are ok too)");
             N1S = Console.ReadLine();
             Console.WriteLine("Enter your second number between 1 - 1000 (decimal values are ok too)");
             N2S = Console.ReadLine();
